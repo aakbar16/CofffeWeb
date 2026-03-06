@@ -5,7 +5,7 @@ export default function RootLayout({ children }) {
   return (
     <html>
       <body>
-        <Navbar />
+        <Navbar isAuthed={false} />
         {children}
       </body>
     </html>

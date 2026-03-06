@@ -1,5 +1,5 @@
 import Hero from "@/components/Hero";
-import PopularDrinks from "@/components/PopularDrinks";
+import CoffeeBeansSection from "@/components/CoffeeBeansSection";
 import EndlessRecipesSection from "@/components/EndlessRecipesSection";
 import LearnRatiosSection from "@/components/LearnRatiosSection";     
 
@@ -7,7 +7,7 @@ export default function HomePage() {
   return (
     <main>
       <Hero /> 
-      <PopularDrinks />
+      <CoffeeBeansSection />
       <EndlessRecipesSection />
       <LearnRatiosSection />
     </main>
